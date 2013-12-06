@@ -1,8 +1,0 @@
-from scrapy.spider import BaseSpider
-
-class RFSpider(BaseSpider):
-    name = "rf"
-    allowed_domains = ["resultados-futbol.com"]
-    start_urls = [
-        "http://www.resultados-futbol.com/primera2013"
-        ]
